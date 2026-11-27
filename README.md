@@ -21,7 +21,12 @@ No Node.js, database, backend server, or package installation is required.
 6. Right-click `index.html`.
 7. Select **Open with Live Server**.
 
+
 You can also open `index.html` directly in a browser, but Live Server is recommended for consistent browser behavior and notification testing.
+
+## 2.1 Github Pages
+
+https://normalguy866.github.io/medication-reminder-system/
 
 ## 3. Project structure
 
