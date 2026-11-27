@@ -102,19 +102,6 @@ The application stores two collections in LocalStorage:
 
 Data is stored in the current browser on the current device. Clearing browser site data can permanently delete it. The application does not synchronize data between devices.
 
-## 7. Suggested testing
-
-1. Add a medication with a reminder time a few minutes in the future.
-2. Confirm that it appears as **Upcoming**.
-3. Wait until the reminder time and confirm that it changes to **Due**.
-4. Select **Taken** and confirm that it becomes **Taken**.
-5. Add another test schedule and select **Skip** after it becomes Due.
-6. For the Missed test, add a schedule time that is already more than 60 minutes in the past today, then refresh the application. Confirm that it becomes **Missed**.
-7. Review the Today and Last 7 days history views.
-8. Test notifications after granting permission.
-
-For testing, use sample medication names and schedules rather than changing a real prescribed schedule.
-
 ## 8. Scope and safety
 
 This is a schedule organizer and recordkeeping application. It cannot confirm that a person physically consumed a medication. It does not prescribe medication, provide medical advice, or recommend changing a prescribed name, dosage, or schedule.
